@@ -22,11 +22,12 @@ const ProjectCard = ({
         className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img
+         <img
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
+ <a href="https://shine.zigmapv.top" target="-blank">
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -39,6 +40,7 @@ const ProjectCard = ({
               />
             </div>
           </div>
+          </a>
         </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
